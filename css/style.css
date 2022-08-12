@@ -1,0 +1,59 @@
+img {
+    width: 100%;
+}
+
+#banner{
+    position: relative;
+}
+
+#banner .arrows span {
+
+    position: absolute;
+    top: 50%;
+    z-index: 999;
+    width: 40px;
+    height: 40px;
+    background-color: rgb(10, 82, 238);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+}
+
+#banner .arrows .prevArrow{
+
+    left: 5px;
+}
+#banner .arrows .nextArrow{
+    right: 5px;
+}
+
+#banner .slick-dots{
+
+    list-style: none;
+    text-align: center;
+
+}
+
+#banner .slick-dots li{
+    display: inline-block;
+    margin:0 10px;
+}
+
+#banner .slick-dots li button{
+
+    border: none;
+    outline: none;
+    display: inline-block;
+    width: 10px;
+    height: 12px;
+    background-color: skyblue;
+    border-radius: 50%;
+    line-height: 10px;
+    color: transparent;
+}
+
+#banner .slick-dots li.slick-active button{
+
+    background-color: lightgreen ;
+}
